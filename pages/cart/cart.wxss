@@ -175,11 +175,11 @@ page {
   float: left;
   padding: 12rpx 30rpx;
   margin: 20rpx 100rpx;
-  border: 1px solid #9a9ba1;
-  background: #9a9ba1;
-  color: #fff;
+  border: 2px solid red;
+  color: red;
+  font-weight: bold;
+  transform: rotate(-20deg);
 }
-
 
 .cart-view .item .img {
   float: left;

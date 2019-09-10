@@ -55,7 +55,8 @@ Page({
         })
         wx.showToast({
           icon: 'none',
-          title: res.errmsg
+          title: res.errmsg,
+          duration: 2500
         });
       }
       wx.hideLoading();
