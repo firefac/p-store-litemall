@@ -21,8 +21,9 @@
 
 ### 联系我们
 #### 关注公众号，体验小程序，更多开源免费好玩的小程序持续更新中
-![image](https://firefac-1259431066.picsh.myqcloud.com/1ef798vi5r0fpxu0d7vvhxjzzsf764j9.png)
-#### 加入QQ群讨论
-![image](https://firefac-1259431066.picsh.myqcloud.com/ldhh4kvk4p3wgmqp57pitc5w6c4rbhop.png)
+<img src="https://firefac-1259431066.picsh.myqcloud.com/1ef798vi5r0fpxu0d7vvhxjzzsf764j9.png" style="width: 200px; "/>
 
+#### 加入QQ群，参与讨论
+
+<img src="https://firefac-1259431066.picsh.myqcloud.com/fr1plbouu45p08cuvfj9t5swkj0yk6lw.png" style="width: 185px; padding:10px"/>
 
