@@ -10,8 +10,13 @@ var formatNumber = function(n){
     if (!format) {
       format = "yyyy-MM-dd hh:mm:ss";
     }
-    //timestamp = parseInt(timestamp);
+
+    console.log('realDate:' + timestamp);
+    // 将字符串转换成时间格式
     var realDate = getDate(timestamp);
+
+    //var realDate = getDate(timePublish);
+    console.log('realDate:' + realDate);
     function timeFormat(num) {
       return num < 10 ? '0' + num : num;
     }
@@ -25,7 +30,7 @@ var formatNumber = function(n){
       ["S+", realDate.getMilliseconds()],
     ];
     var reg1 = regYear.exec(format);
-    // console.log(reg1[0]);
+    //console.log(reg1[0]);
     if (reg1) {
       
       format = format.replace(reg1[1], (realDate.getFullYear() + '').substring(4 - reg1[1].length));

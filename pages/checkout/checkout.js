@@ -21,7 +21,7 @@ Page({
     grouponLinkId: 0, //参与的团购，如果是发起则为0
     grouponRulesId: 0 //团购规则ID
   },
-  onLoad: function(options) {
+  onShow: function(options) {
     // 页面初始化 options为页面跳转所带来的参数
   },
 
@@ -81,7 +81,7 @@ Page({
     // 页面渲染完成
 
   },
-  onShow: function() {
+  onLoad: function() {
     // 页面显示
     wx.showLoading({
       title: '加载中...',
